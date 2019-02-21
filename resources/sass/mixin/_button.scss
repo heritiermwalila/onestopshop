@@ -1,0 +1,10 @@
+@mixin buttonPrimary {
+    padding: 10px 20px;
+    border: 0;
+    width: 18%;
+    background-color: $popstar;
+    color: $white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}

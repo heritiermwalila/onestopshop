@@ -1,0 +1,25 @@
+#page-wrapper{
+    min-height: 100%;
+    
+    #main-page-container{
+        max-width: 1280px;
+        margin: auto;
+        margin-top: 1rem;
+        @include displayFlex;
+        .sidebar-container{
+            width: 18%;
+            height: 60%;
+            background-color: $yankeesblue;
+            padding: 1rem;
+            border-top: 2px solid $popstar;
+            border-bottom: 2px solid $popstar;
+        }
+        .content-container{
+            background-color: $popstar;
+            width: 80%;
+            height: 100px;
+            margin-left: 10px;
+        }
+    }
+    
+}

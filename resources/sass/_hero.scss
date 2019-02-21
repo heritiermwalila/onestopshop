@@ -1,0 +1,14 @@
+.hero-container{
+    @include displayFlex;
+    justify-content: space-between;
+    position: relative;
+    &--slide{
+        width: 80%;
+
+    }
+    &--most{
+        background-color: $white;
+        width: 20%;
+        height: 100px;
+    }
+}

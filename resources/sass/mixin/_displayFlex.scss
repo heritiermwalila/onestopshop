@@ -1,0 +1,7 @@
+@mixin displayFlex {
+    -webkit-display: -webkit-box;
+    -webkit-display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
